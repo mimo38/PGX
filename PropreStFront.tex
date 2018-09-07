@@ -5,7 +5,7 @@
 \documentclass[%
 a5paper%                       Taille de page.
 ,11pt%                         Taille de police.
-,DIV=15%                       Plus grand => des marges plus petites.
+,DIV=10%                       Plus grand => des marges plus petites.
 ,titlepage=on%                 Faut-il une page de titre ?
 %,headings=optiontoheadandtoc%  Effet des paramètres optionnels de section.
 %,headings=small%
@@ -21,11 +21,11 @@ a5paper%                       Taille de page.
 
 %%%%%%%%%%%%%%%%%%%%%%% Paramètres variables %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Taille des partitions grégoriennes.                                                      %%
-\grechangedim{overhepisemalowshift}{.7mm}{scalable}
-\grechangedim{hepisemamiddleshift}{1.4mm}{scalable}
-\grechangedim{overhepisemahighshift}{2.1mm}{scalable}
-\grechangedim{vepisemahighshift}{2.1mm}{scalable}
-%\grechangestafflinethickness{50} %%% epaisseur des lignes
+%\grechangedim{overhepisemalowshift}{.7mm}{scalable} %%Distance to place a a horizontal episema over a note in a low position in the space.Default: 0.02287 cm
+%\grechangedim{hepisemamiddleshift}{1.4mm}{scalable} %%Distance to place a horizontal episema in the middle of a space. Default: 0.07206 cm
+%\grechangedim{overhepisemahighshift}{2.1mm}{scalable} %% Distance to place a horizontal episema over a note in a high position in the space. Default: 0.10066 cm
+%\grechangedim{vepisemahighshift}{2.1mm}{scalable} %% Distance to place a vertical episema in a high position in the space. Default: 0.06634 cm
+%\grechangestafflinethickness{50} %%% epaisseur des lignes The default value is same as staff size.
 \grechangestaffsize{\value{facteur}}%%%%% 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Par souci de clarté, la définition des commandes est reportée dans un document annexe.
