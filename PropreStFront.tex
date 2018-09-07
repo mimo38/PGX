@@ -64,8 +64,6 @@ a5paper%                       Taille de page.
 \author{Évêque et confesseur, patron du diocèse de Périgueux - Sarlat}
 \date{fêté le 25 octobre}
 
-\date{}
-
 \let\oldaddchap\addchap
 \def\addchap#1{\oldaddchap{#1}\markright{Mariage}}
 
@@ -75,13 +73,13 @@ a5paper%                       Taille de page.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 \maketitle
+\vspace*{\stretch{9}}
+\thispagestyle{empty}
+\rubrica{La solennité de saint Front étant empêchée par la fête du Christ-Roi le dernier dimanche d'octobre se fait, par décision diocésaine, le dimanche précédant le 25.}
 \vspace*{\stretch{1}}
-\rubrica{La solennité de saint Front étant empêchée par la fête du Christ-Roile dernier dimanche d'octobre se fait, par décision diocésaine, le dimanche précédant le 25}
-\vspace*{\stretch{0}}
 \newpage
 
 \subsection{Introït}
-%\gre@writemode#1
 \cantus{Introit}{Gaudeamus_Frontone}{Intr.}{1.}
 \subsection{Graduel}
 \cantus{Graduel}{Audite}{Grad.}{5.}
