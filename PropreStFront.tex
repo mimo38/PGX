@@ -38,20 +38,6 @@ a5paper%                       Taille de page.
 
 \pdfcompresslevel=9
 
-\newcommand{\lieu}[1]{\hfill\linebreak[3]\hspace*{\stretch{1}}\nolinebreak\mbox{\emph{(#1)}}}
-
-\newcommand{\commandement}[1]{\noindent\textbf{#1}}
-
-\newcommand{\schola}[1]{}\newcommand{\foule}[1]{#1}
-\providecommand{\dest}{foule}%
-
-\newcommand{\bgimage}[1]{%image d'arrière plan
-    \raisebox{-.45\paperheight}[0pt][0pt]{%
-      \transparent{0.3}%
-      \includegraphics[width=.7\paperwidth,height=.7\paperheight,keepaspectratio=true]{img/#1}%
-      }%
-}
-
 \def\arraystretch{1.2}
 
 \newcommand{\reponsegras}[2]{
@@ -61,13 +47,9 @@ a5paper%                       Taille de page.
 \begin{center} \includegraphics[height=#1]{img/#2} \end{center}}
 
 \title{Saint Front}
-\author{Évêque et confesseur, patron du diocèse de Périgueux - Sarlat}
+\author{Évêque et confesseur. \\ Patron du diocèse de Périgueux - Sarlat}
 \date{fêté le 25 octobre}
 
-\let\oldaddchap\addchap
-\def\addchap#1{\oldaddchap{#1}\markright{Mariage}}
-
-\def\blindsection#1{\markright{#1}\addcontentsline{toc}{section}{#1}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -111,7 +93,7 @@ In illo témpore : Designávit Dóminus et álios septuagínta duos : et misit
 {En ce temps-là : le Seigneur désigna encore soixante-dix autres disciples, et il les envoya devant lui, deux à deux, en toute ville et endroit où lui-même devait aller. Il leur disait : La moisson est grande, mais les ouvriers sont en petit nombre. Priez donc le maître de la moisson d’envoyer des ouvriers à sa moisson. Allez : voici que je vous envoie comme des agneaux au milieu des loups. Ne portez ni bourse, ni besace, ni sandales, et ne saluez personne en chemin. En quelque maison que vous entriez, dites d’abord : "Paix à cette maison !" Et s’il y a là un fils de paix, votre paix reposera sur lui ; sinon, elle reviendra sur vous. Demeurez dans cette maison, mangeant et buvant de ce qu’il y aura chez eux, car l’ouvrier mérite son salaire. Ne passez pas de maison en maison. Et en quelque ville que vous entriez et qu’on vous reçoive, mangez ce qui vous sera servi ; guérissez les malades qui s’y trouveront, et dites-leur : "Le royaume de Dieu est proche de vous."}
 
 \subsection{Offertoire}
-\vulgo{La grâce m'a été donnée par Dieu pour être ministre du Christ Jésus parmi les Gentils}
+\vulgo{La grâce m'a été donnée par Dieu pour être ministre du Christ Jésus parmi les Gentils.}
 \cantus{Offertoire}{GratiaDataEst}{Off.}{1.}
 \newpage
 \subsection{Secrète}
@@ -120,42 +102,22 @@ beáti Pontíficis Frontónis
 Majestáti tuæ offérimus, Dómine, benedíctio copiósa descéndat : ut dignas pro colláto per eum inenarrábili fídei dono grátias
 referéntes, quod mente crédimus
 sectémur, ac opere adimpleámus.
-Per Dóminum.}{Que les largesses de votre bénédiction descende, Seigneur, sur ces dons que nous
-offrons à votre majesté, pour la solennité du bienheureux pontife Front, pour
-que répondant au don ineffable de la foi reçu de lui, nous recherchions ce que
-nous croyons, et l'accomplissions par les œuvres. ParJésus-Christ.}
+Per Dóminum.}{Que les largesses de votre bénédiction descende, Seigneur, sur ces dons que nous offrons à votre majesté, pour la solennité du bienheureux pontife Front, pour que, répondant au don ineffable de la foi reçu de lui, nous recherchions ce que nous croyons, et l'accomplissions par les œuvres. ParJésus-Christ.}
 
 \subsection{Préface}
-\versio{Vere dignum et iustum est,
-æquum et salutáre,
-nos tibi semper et ubíque grátias ágere :
-Dómine, sancte Pater, omnípotens ætérne Deus :}
-{Il est vraiment juste et nécessaire,
-c'est notre devoir et c'est notre salut,
-de vous rendre grâces toujours et partout,
-Seigneur, Père saint, Dieu éternel et tout-puissant :} 
+\versio{Vere dignum et iustum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere : Dómine, sancte Pater, omnípotens ætérne Deus :}
+{Il est vraiment juste et nécessaire, c'est notre devoir et c'est notre salut, de vous rendre grâces toujours et partout, Seigneur, Père saint, Dieu éternel et tout-puissant :} 
 
 \versio{et glóriam tuam profúsis précibus exoráre,ut qui beáti Frontónis Confessóris tui atque Pontíficis venerámur festa, te opitulánte, ejus sanctitátis imitari valeámus exémpla.}
-{et rempli de votre gloire, de vous supplier par nos prières, 
-pour que 
-nous qui célébrons la fête du bienheureux Front votre Confessseur et Pontife
-par votre secours,
-nous ayons le courage d'imiter les exemples de sa sainteté.}
+{et rempli de votre gloire, de vous supplier par nos prières, pour que nous qui célébrons la fête du bienheureux Front votre Confessseur et Pontife par votre secours, nous ayons le courage d'imiter les exemples de sa sainteté.}
 
 \versio{Cujus quæ sit beáta glorificátio osténdit concúrsus populórum ad túmulum, purgátio immundórum spírituum, medéla languéntium, mirandarúmque signa virtútum et cujus méritis nequáquam póssumus coæquári ejus précibus mereámur adjuvári,per Christum Dóminum nostrum.}
-{Lui dont la gloire est telle qu'elle montre un grand concours de peuple à son tombeau, pour y trouver la purification des esprits impurs, la guérison des maladies et les signes d'une étonnante puissance
-lui dont les mérites sont inégalables,
-que nous méritions d'être secourus par ses prières, par le Christ Notre-Seigneur.}
+{Lui dont la gloire est telle qu'elle montre un grand concours de peuple à son tombeau, pour y trouver la purification des esprits impurs, la guérison des maladies et les signes d'une étonnante puissance lui dont les mérites sont inégalables, que nous méritions d'être secourus par ses prières, par le Christ Notre-Seigneur.}
 \versio{Per quem maiestátem tuam laudant Angeli, adórant Dominatiónes,tremunt Potestátes. Cæli cælorúmque Virtútes ac beáta Séraphim sócia exsultatióne concélebrant. Cum quibus et nostras voces ut admítti iúbeas, deprecámur, súpplici confessióne dicentes.}
-{Par Lui les Anges louent votre majesté,
-les Dominations vous adorent,
-les Puissances se prosternent en tremblant.
-Les Cieux, les Vertus des cieux et les bienheureux Séraphins
-la célèbrent, unis dans une même allégresse.
-À leurs chants, nous vous prions, laissez se joindre aussi nos voix
-pour proclamer dans une humble louange.}
+{Par Lui les Anges louent votre majesté, les Dominations vous adorent, les Puissances se prosternent en tremblant. Les Cieux, les Vertus des cieux et les bienheureux Séraphins la célèbrent, unis dans une même allégresse. À leurs chants, nous vous prions, laissez se joindre aussi nos voix pour proclamer dans une humble louange.}
+
 \subsection{Communion}
-\vulgo{Comme le soleil resplendissant, ainsi brille-t-il dans le temple de Dieu}
+\vulgo{Comme le soleil resplendissant, ainsi brille-t-il dans le temple de Dieu.}
 \cantus{Communion}{QuasiSol}{Comm.}{1.}
 
 \subsection{Postcommunion}
