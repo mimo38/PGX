@@ -1,0 +1,23 @@
+% Afficher des recommendations concernant la syntaxe.
+\RequirePackage[orthodox,l2tabu]{nag}
+\RequirePackage{luatex85}
+% Paramètres du document.
+\documentclass[%
+a5paper%                       Taille de page.
+,11pt%                         Taille de police.
+,DIV=10%                       Plus grand => des marges plus petites.
+,titlepage=off%                 Faut-il une page de titre ?
+%,headings=optiontoheadandtoc%  Effet des paramètres optionnels de section.
+%,headings=small%
+,parskip=false%
+,openany%
+]{scrbook}
+\renewcommand*\partheademptypage{\thispagestyle{empty}}
+\newcounter{facteur}\setcounter{facteur}{17}%%%%%%%%%%%%%% Paramètre pour la taille globale des partitions. par défaut~: 17
+%\usepackage{geometry}
+\usepackage{gredoc,mudoc,lyluatex}
+\usepackage{pdfpages,transparent,array,ltablex}
+\usepackage{framed}
+\begin{document}
+\cantus{Introit}{Gaudeamus_Frontone}{Intr.}{1.}
+\end{document}
