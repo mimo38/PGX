@@ -54,9 +54,9 @@ a5paper%                       Taille de page.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
-\newfontfamily\lettrines[Scale=1.3]{l800}
-    \def\gretextformat#1{{\fontsize{\taillepolice}{\taillepolice}\selectfont #1}}
-    \def\greinitialformat#1{{\lettrines #1}}
+\newfontfamily\malettrine[Scale=0.8]{l800}
+\renewcommand{\LettrineFontHook}{\malettrine\color{black}}
+
 \maketitle
 %\vspace*{\stretch{9}}
 \imagecentre{7 cm}{Saint_Front}
