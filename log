@@ -3,12 +3,12 @@ Sortie :
 
 This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian) 
  restricted system commands enabled.
-(/opt/musite/static/docs/tmp/PGX/text.tex
+(/opt/musite/static/docs/tmp/PGX/PropreStFront.tex
 LaTeX2e <2017-04-15>
 (using write cache: /var/lib/texmf/luatex-cache/generic)(using read cache: /var
 /lib/texmf/luatex-cache/generic /root/.texlive2017/texmf-var/luatex-cache/gener
 ic)
-luaotfload | main : initialization completed in 0.175 seconds
+luaotfload | main : initialization completed in 0.230 seconds
 Babel <3.15> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/nag/nag.sty
 (/usr/share/texlive/texmf-dist/tex/latex/nag/nag-orthodox.cfg)
@@ -23,15 +23,8 @@ Document Class: scrbook 2017/09/07 v3.24 KOMA-Script document class (book)
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrsize11pt.clo(load luc: 
 /var/lib/texmf/luatex-cache/generic/fonts/otl/lmroman10-regular.luc))
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
-
-Package typearea Warning: Maybe no optimal type area settings!
-(typearea)                The maximum limit of line width is about 18%
-(typearea)                larger than the heuristically detected line width.
-(typearea)                You may e.g. increase DIV, decrease fontsize
-(typearea)                or change the papersize.
-
-)) (./lib/gredoc.sty (./lib/brevia.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty))
+(./lib/gredoc.sty (./lib/brevia.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/nowidow/nowidow.sty
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty)
@@ -60,34 +53,34 @@ lib/texmf/luatex-cache/generic/fonts/otl/lmroman10-bold.luc)(load luc: /var/lib
 (/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
 (/usr/share/texlive/texmf-dist/tex/luatex/ctablestack/ctablestack.sty)))
 (/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-french.ldfLanguage data for francais
-synonyms	table: 0x55ad044b31d0
-loader	loadhyph-fr.tex
 lefthyphenmin	2
-patterns	hyph-fr.pat.txt
-hyphenation	
 righthyphenmin	2
+synonyms	table: 0x5641521cd7e0
+hyphenation	
+loader	loadhyph-fr.tex
+patterns	hyph-fr.pat.txt
 
 hyph-fr.pat.txt
 Language francais was not yet loaded; created with id 4
 Language francais already loaded; id is 4
 Language francais already loaded; id is 4Language data for french
-synonyms	table: 0x55ad044b31d0
-loader	loadhyph-fr.tex
 lefthyphenmin	2
-patterns	hyph-fr.pat.txt
-hyphenation	
 righthyphenmin	2
+synonyms	table: 0x5641521cd7e0
+hyphenation	
+loader	loadhyph-fr.tex
+patterns	hyph-fr.pat.txt
 
 hyph-fr.pat.txt
 Language french was not yet loaded; created with id 8
 Language french already loaded; id is 8)
 (/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-latin.ldfLanguage data for latin
-synonyms	table: 0x55ad044adcb0
-loader	loadhyph-la.tex
 lefthyphenmin	2
-patterns	hyph-la.pat.txt
-hyphenation	
 righthyphenmin	2
+synonyms	table: 0x5641521c8050
+hyphenation	
+loader	loadhyph-la.tex
+patterns	hyph-la.pat.txt
 
 hyph-la.pat.txt
 Language latin was not yet loaded; created with id 12
@@ -176,10 +169,11 @@ Class scrbook Warning: Activating an ugly workaround for a missing
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex))
 (/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-main.tex
 (/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-common.tex)
-(text.gaux) (/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-spaces.tex)(lo
-ad luc: /var/lib/texmf/luatex-cache/generic/fonts/otl/greciliae.luc)(load luc: 
-/var/lib/texmf/luatex-cache/generic/fonts/otl/greciliae-hollow.luc)(load luc: /
-var/lib/texmf/luatex-cache/generic/fonts/otl/greciliae-hole.luc)
+(PropreStFront.gaux)
+(/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-spaces.tex)(load luc: /var
+/lib/texmf/luatex-cache/generic/fonts/otl/greciliae.luc)(load luc: /var/lib/tex
+mf/luatex-cache/generic/fonts/otl/greciliae-hollow.luc)(load luc: /var/lib/texm
+f/luatex-cache/generic/fonts/otl/greciliae-hole.luc)
 (/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-chars.tex)
 (/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-signs.tex)
 (/usr/share/texmf/tex/luatex/gregoriotex/gregoriotex-syllable.tex)
@@ -275,7 +269,7 @@ Package hyperref Message: Driver: hluatex.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hluatex.def
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty)))
 (./lib/mudoc.sty (/usr/share/texlive/texmf-dist/tex/latex/pbox/pbox.sty))
-Writing index file text.idx
+Writing index file PropreStFront.idx
 (./lib/lyluatex.sty
 (/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
 (/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty))lilypond
@@ -287,7 +281,14 @@ Writing index file text.idx
 (/usr/share/texlive/texmf-dist/tex/latex/ltablex/ltablex.sty
 (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty) (./text.aux
+(/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty)
+(./PropreStFront.aux
+Language french already loaded; id is 8
+Language french already loaded; id is 8
+Language french already loaded; id is 8
+Language french already loaded; id is 8
+Language french already loaded; id is 8
+Language french already loaded; id is 8
 Language french already loaded; id is 8)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
 Language french already loaded; id is 8
@@ -300,30 +301,51 @@ Language french already loaded; id is 8
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
-(./text.out) (./text.out)
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty))
+luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
+luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
+luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
+luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
+luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
+luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
+luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
+luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
+luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
+luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg) [1{/var/lib/texm
+f/fonts/map/pdftex/updmap/pdftex.map}]
+Language french already loaded; id is 8
+Language french already loaded; id is 8
 (./gabc/Introit/Gaudeamus_Frontone-5_0_2.gtex
 luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.)
-(./gabc/Introit/Gaudeamus_Frontone-5_0_2.gtex)
+luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate.
+luaotfload | resolve : sequence of 3 lookups yielded nothing appropriate. [2]
+Language french already loaded; id is 8
+Language french already loaded; id is 8 [3] (./gabc/Graduel/Audite-5_0_2.gtex)
+[4] (./gabc/Alleluia/Fronto-5_0_2.gtex)
+Language french already loaded; id is 8
+Language french already loaded; id is 8 [5]
+(./gabc/Offertoire/GratiaDataEst-5_0_2.gtex) [6]
+(./gabc/Communion/QuasiSol-5_0_2.gtex) [7]
 No complaints by nag.
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg) [1{/var/lib/texm
-f/fonts/map/pdftex/updmap/pdftex.map}] (./text.aux
+[8] (./PropreStFront.aux
+Language french already loaded; id is 8
+Language french already loaded; id is 8
+Language french already loaded; id is 8
+Language french already loaded; id is 8
+Language french already loaded; id is 8
+Language french already loaded; id is 8
 Language french already loaded; id is 8))
- 54199 words of node memory still in use:
-   1742 hlist, 222 vlist, 885 rule, 1 local_par, 1094 glue, 1105 kern, 220 pena
-lty, 436 glyph, 4659 attribute, 93 glue_spec, 672 attribute_list, 2 shape, 1 wr
-ite, 1 user_defined, 442 pdf_colorstack nodes
-   avail lists: 1:4,2:15140,3:1800,4:51,5:1859,6:1027,7:536,8:64,9:856,10:20,11
-:3
-Module gregoriotex Warning: Line heights or variable brace lengths may have cha
-nged. Rerun to fix. on input line 0
-</usr/share/fonts/opentype/linux-libertine/LinLibertine_RI.otf></usr/share/texm
-f/fonts/truetype/public/gregoriotex/greextra.ttf></usr/share/texmf/fonts/truety
-pe/public/gregoriotex/greciliae.ttf><./l800.ttf></usr/share/fonts/opentype/linu
-x-libertine/LinLibertine_R.otf>
-Output written on text.pdf (1 page, 25659 bytes).
-Transcript written on text.log.
+ 148150 words of node memory still in use:
+   4788 hlist, 608 vlist, 2429 rule, 3010 glue, 3035 kern, 593 penalty, 1194 gl
+yph, 12860 attribute, 121 glue_spec, 1843 attribute_list, 2 shape, 1 write, 1 u
+ser_defined, 1218 pdf_colorstack nodes
+   avail lists: 1:2,2:7115,3:841,4:63,5:477,6:2739,7:1031,8:43,9:279,10:59,11:3
+20
+
+warning  (pdf backend): draftmode enabled, not changing output pdf
+Transcript written on PropreStFront.log.
 
 
 
